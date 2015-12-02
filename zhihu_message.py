@@ -22,20 +22,19 @@ headers = {
 }
 
 login_data = {
-    'email': '15920381382',        # your email
-    'password': 'wunai1/',     # your password
+    'email': '',        # your email
+    'password': '',     # your password
     'remember_me': "true",
 }
 
 phone_login_data = {
-    'phone_num': '15920381382',        # your phone_num
-    'password': 'wunai1/',     # your password
+    'phone_num': '',        # your phone_num
+    'password': '',     # your password
     'remember_me': "true",
 }
 
 message_data = {
-    'content': '亲爱的知乎用户您好～窝是一只可爱的程序猿写的爬虫程序～对打扰您表示抱歉～'
-               #'～如果您关注了我，我也会回关哦～问题链接在:',   # 你想要发送的私信
+    'content': '亲爱的知乎用户您好～'#私信内容
 }
 
 session = requests.session()
